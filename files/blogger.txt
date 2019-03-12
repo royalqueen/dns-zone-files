@@ -1,18 +1,44 @@
-;; Blogger
-;; https://www.blogger.com/
 ;;
-;; Docs:
-;; https://support.google.com/blogger/answer/55374?hl=en
+;; Domain:     royalqueen607.com.
+;; Exported:   2019-03-12 06:05:33
 ;;
-;; Adds the following records:
-;; - A Records
-;; - CNAME Record
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
 
-;; === A Records ===
-@ 300 IN A 216.239.32.21
-@ 300 IN A 216.239.34.21
-@ 300 IN A 216.239.36.21
-@ 300 IN A 216.239.38.21
+;; SOA Record
+royalqueen607.com.	3600	IN	SOA	royalqueen607.com. root.royalqueen607.com. 2030403733 7200 3600 86400 3600
 
-;; === CNAME Record ===
-www 300 IN CNAME www.YOURDOMAIN.COM.ghs.googlehosted.com.
+;; A Records
+royalqueen607.com.	3600	IN	A	216.239.38.21
+royalqueen607.com.	1	IN	A	216.239.36.21
+royalqueen607.com.	1	IN	A	216.239.34.21
+royalqueen607.com.	1	IN	A	216.239.32.21
+
+;; CNAME Records
+nrzzpr3bz24w.royalqueen607.com.	1	IN	CNAME	gv-itokc3oytd722x.dv.googlehosted.com.
+www.royalqueen607.com.	1	IN	CNAME	ghs.google.com.
+
+;; MX Records
+smtp.secureserver.net.royalqueen607.com.	1	IN	MX	0 mailstore1.secureserver.net.
+
+;; TXT Records
+royalqueen607.com.	1	IN	TXT	"google-site-verification=Xp1DUT1ZJCTqg-TbhkZToW0vGQ4hF1E8Ye3rK5PDr30"
